@@ -38,6 +38,7 @@ const ContactForm: React.FC = () => {
               Clique no botão abaixo para iniciar uma conversa direta pelo WhatsApp. Envie sua ideia e eu retorno o mais rápido possível.
             </p>
             <a
+              id="whatsapp-contact"
               href="https://wa.me/5522988117846?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20falar%20sobre%20um%20projeto."
               target="_blank"
               rel="noopener noreferrer"
