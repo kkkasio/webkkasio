@@ -6,6 +6,7 @@ import ContactForm from "./components/ContactForm";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import { Benefits } from "./components/Benefits";
+import { Pricing } from "./components/Pricing";
 
 const App: React.FC = () => {
   return (
@@ -60,6 +61,8 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
+
+        <Pricing />
 
         <FAQ />
 
