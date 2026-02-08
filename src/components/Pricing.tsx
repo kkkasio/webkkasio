@@ -29,7 +29,7 @@ export const Pricing = () => {
               <li>Entrega em 7–10 dias úteis</li>
             </ul>
             <a
-              href="#contato"
+              href="https://wa.me/5522988117846?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20plano%20Starter%20(Landing%20Page)%20e%20agendar%20uma%20consultoria%20gratuita."
               className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-3 rounded-xl font-semibold transition-all w-full justify-center"
             >
               Escolher Starter
@@ -55,7 +55,7 @@ export const Pricing = () => {
               <li>Entrega em 7–12 dias úteis</li>
             </ul>
             <a
-              href="#contato"
+              href="https://wa.me/5522988117846?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20plano%20Pro%20(Site%20Profissional)%20e%20agendar%20uma%20consultoria%20gratuita."
               className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-3 rounded-xl font-semibold transition-all w-full justify-center"
             >
               Escolher Profissional
@@ -82,7 +82,7 @@ export const Pricing = () => {
               <li>SEO on-page, performance e segurança reforçadas</li>
             </ul>
             <a
-              href="#contato"
+              href="https://wa.me/5522988117846?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20plano%20Pro%20(Site%Premium)%20e%20agendar%20uma%20consultoria%20gratuita."
               className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-3 rounded-xl font-semibold transition-all w-full justify-center"
             >
               Escolher Premium
