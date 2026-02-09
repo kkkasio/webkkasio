@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { CheckCircle2 } from 'lucide-react';
+import React from "react";
+import { CheckCircle2 } from "lucide-react";
 
 const ContactForm: React.FC = () => {
   return (
@@ -8,9 +7,12 @@ const ContactForm: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto bg-slate-900 rounded-[3rem] border border-slate-800 overflow-hidden flex flex-col md:flex-row">
           <div className="md:w-1/2 p-8 md:p-16 bg-indigo-600">
-            <h3 className="text-3xl font-bold text-white mb-6">Pronto para elevar seu negócio?</h3>
+            <h3 className="text-3xl font-bold text-white mb-6">
+              Pronto para elevar seu negócio?
+            </h3>
             <p className="text-indigo-100 text-lg mb-12">
-              Fale diretamente comigo pelo WhatsApp e agende uma consultoria gratuita. Vamos analisar suas necessidades e desenhar a melhor solução digital.
+              Fale comigo no WhatsApp e receba um diagnóstico gratuito. Vamos
+              desenhar juntos a melhor solução digital para a sua empresa.
             </p>
 
             <ul className="space-y-6">
@@ -20,7 +22,7 @@ const ContactForm: React.FC = () => {
               </li>
               <li className="flex items-center gap-4 text-white">
                 <CheckCircle2 className="w-6 h-6 text-indigo-300" />
-                <span>Prazo de entrega garantido</span>
+                <span>Prazo médio informado na proposta</span>
               </li>
               <li className="flex items-center gap-4 text-white">
                 <CheckCircle2 className="w-6 h-6 text-indigo-300" />
@@ -33,9 +35,12 @@ const ContactForm: React.FC = () => {
             <div className="w-20 h-20 bg-green-500/10 text-green-500 rounded-full flex items-center justify-center mb-2">
               <CheckCircle2 className="w-10 h-10" />
             </div>
-            <h4 className="text-2xl font-bold mb-2">Atendimento via WhatsApp</h4>
+            <h4 className="text-2xl font-bold mb-2">
+              Atendimento via WhatsApp
+            </h4>
             <p className="text-slate-400 mb-4 max-w-md">
-              Clique no botão abaixo para iniciar uma conversa direta pelo WhatsApp. Envie sua ideia e eu retorno o mais rápido possível.
+              Clique no botão abaixo para iniciar uma conversa direta pelo
+              WhatsApp. Envie sua ideia e eu retorno o mais rápido possível.
             </p>
             <a
               id="whatsapp-contact"
@@ -46,7 +51,6 @@ const ContactForm: React.FC = () => {
             >
               Falar no WhatsApp
             </a>
-
           </div>
         </div>
       </div>

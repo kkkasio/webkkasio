@@ -17,31 +17,24 @@ export const Benefits = () => {
             <li className="flex gap-3">
               <span className="text-indigo-400">•</span>
               <span>
-                Sites otimizados para SEO local e Google Meu Negócio, para que
-                clientes próximos encontrem você facilmente
+                Seu site não aparece no Google? Otimizamos SEO local e Google
+                Meu Negócio para clientes próximos encontrarem você
               </span>
             </li>
 
             <li className="flex gap-3">
               <span className="text-indigo-400">•</span>
               <span>
-                Seus clientes não encontram sua empresa online? Criamos páginas
-                otimizadas para ranquear e converter.
-              </span>
-            </li>
-
-            <li className="flex gap-3">
-              <span className="text-indigo-400">•</span>
-              <span>
-                Paga anúncios e não converte? Landing pages com CTA claro e
-                design limpo aumentam os leads.
+                Cansado de gastar com anúncios sem retorno? Criamos landing
+                pages com CTA claro e design limpo que transformam cliques em
+                leads
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-indigo-400">•</span>
               <span>
-                Site lento e confuso? Performance e UX focadas em reduzir
-                rejeição e aumentar contatos.
+                Sites lentos espantam clientes. Otimizamos performance e
+                experiência do usuário para reduzir rejeição e aumentar contatos
               </span>
             </li>
             <li className="flex gap-3">
@@ -69,15 +62,15 @@ export const Benefits = () => {
             <div className="flex gap-3">
               <span className="text-green-400">▲</span>
               <p className="text-slate-200">
-                Páginas com CTA claro convertem até <strong>2–3x</strong> mais
-                que layouts sem hierarquia visual.
+                Páginas com CTA claro convertem até <strong>3x</strong> mais que
+                layouts sem hierarquia visual.
               </p>
             </div>
             <div className="flex gap-3">
               <span className="text-green-400">▲</span>
               <p className="text-slate-200">
-                Melhorar velocidade de carregamento pode elevar a taxa de
-                conversão em <strong>7–15%</strong>.
+                Melhorar a velocidade do site pode aumentar a conversão em até{" "}
+                <strong>15%</strong>
               </p>
             </div>
             <div className="flex gap-3">

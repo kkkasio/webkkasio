@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { Code2, Github, Linkedin, Instagram, Mail } from 'lucide-react';
+import React from "react";
+import { Code2, Github, Linkedin, Instagram, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -16,8 +15,14 @@ const Footer: React.FC = () => {
                 KÁSIO<span className="text-indigo-500">DIGITAL</span>
               </span>
             </a>
+
             <p className="text-slate-400 max-w-sm mb-8 leading-relaxed">
-              Consultoria premium de soluções digitais focada em transformar tecnologia em crescimento para o seu negócio.
+              Consultoria digital premium em Cabo Frio e Região focada em
+              transformar tecnologia em crescimento para o seu negócio.
+              <br />
+              <br />
+              Sites, landing pages e sistemas focados em gerar clientes para
+              negócios locais.
             </p>
             {/*
             <div className="flex gap-4">
@@ -34,24 +39,63 @@ const Footer: React.FC = () => {
                 <Mail className="w-5 h-5" />
               </a>
             </div>
-            */ }
+            */}
           </div>
 
           <div>
-            <h4 className="font-bold mb-6 text-white uppercase tracking-widest text-sm">Serviços</h4>
+            <h4 className="font-bold mb-6 text-white uppercase tracking-widest text-sm">
+              Serviços
+            </h4>
             <ul className="space-y-4 text-slate-400">
-              <li><a href="#contato" className="hover:text-indigo-400 transition-colors">Websites</a></li>
-              <li><a href="#contato" className="hover:text-indigo-400 transition-colors">Landing Pages</a></li>
-              <li><a href="#contato" className="hover:text-indigo-400 transition-colors">Apps Mobile</a></li>
-              <li><a href="#contato" className="hover:text-indigo-400 transition-colors">Sistemas PHP/Node</a></li>
-              <li><a href="#contato" className="hover:text-indigo-400 transition-colors">WordPress/Elementor</a></li>
+              <li>
+                <a
+                  href="#contato"
+                  className="hover:text-indigo-400 transition-colors"
+                >
+                  Websites
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contato"
+                  className="hover:text-indigo-400 transition-colors"
+                >
+                  Landing Pages
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contato"
+                  className="hover:text-indigo-400 transition-colors"
+                >
+                  Apps Mobile
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contato"
+                  className="hover:text-indigo-400 transition-colors"
+                >
+                  Sistemas
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contato"
+                  className="hover:text-indigo-400 transition-colors"
+                >
+                  WordPress
+                </a>
+              </li>
             </ul>
           </div>
-
         </div>
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
-          <p>© {new Date().getFullYear()} Kásio Digital - Vamos agendar uma conversa ?</p>
+          <p>
+            © {new Date().getFullYear()} Kásio Digital - Vamos agendar uma
+            conversa ?
+          </p>
         </div>
       </div>
     </footer>

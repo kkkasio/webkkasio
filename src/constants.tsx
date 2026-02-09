@@ -122,6 +122,11 @@ export const FAQS: FAQItem[] = [
   {
     question: "Vocês otimizam para SEO?",
     answer:
-      "Sim! Implementamos as melhores práticas de SEO para melhorar o posicionamento do seu site nos motores de busca e aumentar a visibilidade online.",
+      "Sim. Realizamos otimização on‑page (títulos, meta tags, palavras-chave locais) e configuramos ferramentas para que você acompanhe resultados.",
+  },
+  {
+    question: "Você atende Cabo Frio e Região?",
+    answer:
+      "Sim, atendemos Cabo Frio e toda a Região dos Lagos, e o Brasil todo oferecendo soluções personalizadas para o seu negócio.",
   },
 ];

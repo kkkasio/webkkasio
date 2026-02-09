@@ -5,27 +5,26 @@ const Hero: React.FC = () => {
   return (
     <>
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-        {/* Background Orbs */}
         <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[600px] h-[600px] bg-indigo-600/10 blur-[120px] rounded-full pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-purple-600/10 blur-[120px] rounded-full pointer-events-none"></div>
 
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-slate-900/50 border border-slate-800 px-4 py-2 rounded-full text-indigo-400 text-sm font-medium mb-8 animate-float">
+            {/* <div className="inline-flex items-center gap-2 bg-slate-900/50 border border-slate-800 px-4 py-2 rounded-full text-indigo-400 text-sm font-medium mb-8 animate-float">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
               Online Agora, Pronto para Ajudar Você a Crescer!
-            </div>
+            </div> */}
 
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
-              Sites e Landing Pages que trazem clientes para o seu negócio
+              Criamos Sites e Landing Pages que multiplicam seus clientes
             </h1>
 
             <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Atraia leads, agende mais visitas e aumente suas vendas com
-              soluções digitais otimizadas.
+              Atraia clientes qualificados e aumente suas vendas com soluções
+              digitais sob medida
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
